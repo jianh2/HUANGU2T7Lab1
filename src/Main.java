@@ -1,16 +1,14 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String args[]) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Please enter a word");
+        String str = scan.nextLine();
+        System.out.println("Your word is " + str.length() + " letters long");
+        Int length = str.length();
+        if ((str.length() % 2) > 0)
+        System.out.println("The first half of your word is " +
 
-        String str1 = "Hello!";
-        String str2 = "Hello!";
-        String str3 = "Hello!";
-        String str4 = "Hello! ";
-        String str5 = new String("Hello!");
-        System.out.println(str1 == str2);
-        System.out.println(str1 == str3);
-        System.out.println(str1 == str4);
-        System.out.println(str1 == str5);
-        Syse
 
 
 
